@@ -1,0 +1,52 @@
+body{
+    font-family:'arial';
+    font-size:25px;
+    background-image:url("https://thumbs.dreamstime.com/z/food-delivery-order-pizza-online-phone-smartphone-white-background-top-view-140202673.jpg");
+    background-size:cover;
+  }
+
+
+h3, h4 {
+	font-family:Cabin Sketch;
+  font-size:40px;
+}
+
+
+table tr td input[type="text"], table tr td input[type="email"] {
+	float: right;
+}
+
+
+#fields {
+	text-align: center;
+}
+
+
+table tr th {
+	text-align: left;
+	padding-left: 10px;
+}
+
+#submit {
+	padding: 8px 15px;
+	margin-top: 10px;
+	background-color: #008060;
+	color: white;
+	font-size: 15px;
+	border: 1px solid white;
+	border-radius: 5px;
+}
+
+#wrapper{
+    margin-top:20px;
+	float:center;
+  }
+
+  form{
+	background-color:#5a2e5f;
+	color:white;
+	border-radius:5px;
+	height:auto;
+	width:800px;
+	
+  }

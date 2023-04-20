@@ -1,0 +1,193 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial;
+}
+button{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 40px;
+    flex-basis:48%;
+    background: #3c00a0;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: background 1s;
+}
+button i{
+    color: #fff;
+    margin-left: 6px;
+    margin-top: 10px;
+    size:60px;
+}
+button:hover{
+    background-color: #161414;
+}
+body{
+    background-image: linear-gradient(rgba(0,0,50,0.8),rgba(0,0,50,0.8)),url(https://thumbs.dreamstime.com/z/creative-pizza-picture-form-clock-arrows-beautiful-bright-background-delivery-hours-inscription-creative-115595471.jpg);
+    font-size: 16px;
+}
+.container{
+    width: 80%;
+    margin: 50px auto;
+}
+.contact-box{
+    background: white;
+    display: flex;
+}
+.contact-left{
+    flex-basis: 40%;
+    padding: 120px 40px;
+}
+.contact-right{
+    flex-basis: 40%;
+    padding:  40px;
+    background: #1c00b5;
+    color: #fff;
+}
+h2{
+    margin-bottom: 10px;
+    color: #ccc;
+}
+.container p{
+    color: #fff;
+    margin-bottom: 40px;
+}
+.input-row{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.input-row .input-gup{
+    flex-basis: 45%;
+}
+input{
+    width: 100%;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #ccc;
+    padding-bottom: 5px;
+}
+textarea{
+    width: 100%;
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 10px;
+    box-sizing: border-box;
+}
+button{
+    background: #1c00b5;
+    width: 100px;
+    outline: none;
+    border: none;
+    color: #fff;
+    height: 35px;
+    border-radius: 35px;
+    margin-top: 20px;
+    box-shadow: 0px 5px 15px 0px rgba(28, 0, 181, 0.3);
+}
+.contact-left h3{
+    color: #1c00b5;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.contact-right h3{
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+tr td:first-child{
+    padding-right: 20px;
+}
+tr td{
+    padding-top: 20px;
+}
+.footer{
+    background-color: #24262b;
+    padding: 70px 0;
+    margin-top: auto;
+}
+.footer p{
+    text-align: center;
+    color:white;
+    margin-top: 30px;
+    padding: 15px;
+} 
+.footer-col ul{
+    list-style-type: none;
+
+}
+.row{
+    display:flex;
+    flex-wrap:wrap;
+}
+.footer-col{
+    width: 25%;
+    padding: 0px 15px;
+    margin-left: 10px;
+}
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    margin-left: 10px;
+    font-weight: 500;
+    position: relative;
+}
+.footer-col h4::before{
+    content:'';
+    position: absolute;
+    left:0;
+    bottom:-10px;
+    background-color: #e91e63;
+    height: 2px;
+    box-sizing: border-box;
+    width:80px;
+}
+.footer-col ul li:not(:last-child){
+    margin-bottom:10px;
+}
+.footer-col ul li a{
+    font-size: 25px;
+    margin-left: 0;
+    text-transform: capitalize;
+    color: #ffff;
+    text-decoration: none;
+    font-weight: 300;
+    color:#bbbb;
+    display:block;
+    transition:all 0.3s ease;
+}
+.footer-col ul li a:hover{
+    color:rgb(242,235,235);
+    padding-left: 8px;
+}
+.footer-col .social-links a{
+    display: inline-block;
+    height: 40px;
+    width: 40px;
+    background-color:rgba(255,255,255,0.2);
+    margin:0 10px 10px 0;
+    text-align: center;
+    line-height: 40px;
+    border-radius: 50%;
+    color:#fff;
+    transition:all 0.3s ease;
+}
+.footer-col .social-links a:hover{
+    color:#24262b;
+    background-color:#fff;
+}
+@media(max-width:767px){
+    .footer-col{
+        width: 50%;
+        margin-bottom: 50px;
+    }
+}
+@media(max-width:700px){
+    .footer-col{
+        width:100%;
+        margin-bottom:90px;
+    }
+}

@@ -1,0 +1,188 @@
+.body{
+    font-family:'arial';
+  font-size:25px;
+  background-image:url("https://thumbs.dreamstime.com/z/food-delivery-order-pizza-online-phone-smartphone-white-background-top-view-140202673.jpg");
+  background-size:cover;
+}
+.btn {
+    border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+      font-family: 'arial';
+}
+.black, .hover-black:hover {
+    color: #fff!important;
+    background-color: #000!important;
+}
+
+.container {
+    padding: 0.01em 16px;
+}
+.padding-64 {
+    padding-top: 64px!important;
+    padding-bottom: 64px!important;
+}
+.container:after, .panel:after, .row:after, .row-padding:after, .topnav:after, .clear:after,  .btn-group:after,  .btn-bar:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+.content {
+    max-width: 980px;
+    margin: auto;
+}
+.jumbo {
+    font-size: 64px!important;
+      font-weight: 400;
+    margin: 10px 0;
+     font-family: 'arial';
+}
+
+.pizza1 { display: block;
+  
+}
+.starter1 { display: block; } 
+.pasta1 { display: block; } 
+.tab1, .tab2, .tab3{
+  padding: 20px 126px;
+  font-size: 36px;
+    background-color: black;
+    color: white;
+ font-family: 'Arial';
+  
+}
+.tab1:hover{
+  background-color: #f44336;
+    color: white;
+}
+.tab2:hover{
+   background-color: #f44336;
+    color: white;
+  }
+.tab3:hover{
+  background-color: #f44336;
+    color: white;
+ }
+h1{
+  font-weight: 400;
+    margin: 10px 0;
+  font-family: 'Arial';
+      font-size: 36px;
+  margin:20px;
+}
+.pizza1{
+  color: #000!important;
+    background-color: #fff!important;
+  padding-top: 32px!important;
+    padding-bottom: 32px!important;
+  font-family: 'Arial';
+ }
+  .span {
+        border-radius: 4px!important;
+    float: right!important;
+    color: #fff!important;
+    background-color: #616161!important;
+  }
+.text{
+   margin:20px;
+  color: #757575!important;
+ }
+.pizza1 hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+.pasta1{
+  color: #000!important;
+    background-color: #fff!important;
+  padding-top: 32px!important;
+    padding-bottom: 32px!important;
+  font-family: 'Arial';
+  
+}
+.pasta1 hr{
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.starter1{
+  color: #000!important;
+    background-color: #fff!important;
+  padding-top: 32px!important;
+    padding-bottom: 32px!important;
+  font-family: 'Arial';
+  
+}
+.starter1 hr {
+    border: 0;
+    border-top: 1px solid #eee;
+    margin: 20px 0;
+  box-sizing: content-box;
+    height: 0;
+    overflow: visible;
+}
+
+.naslov1{
+  margin-bottom: 64px;
+      text-align: center!important;
+  font-size: 64px!important;
+  font-weight: 400;
+    margin: 10px 0;
+  
+}
+.strong1{
+      width: 150px;
+      border-radius: 50%!important;
+  float: right!important;
+    margin-bottom: -5px;
+      border-style: none;
+}
+.col.s6 {
+    width: 40%;
+}
+
+  .col, .half, .third, .twothird, .threequarter, .quarter {
+    float: left;
+    
+}
+.button{
+  padding: 8px 16px!important;
+   margin:40px;
+  border: none;
+    display: inline-block;
+    outline: 0;
+    padding: 6px 16px;
+    vertical-align: middle;
+    overflow: hidden;
+    text-decoration: none!important;
+    color: #fff;
+    background-color: #000;
+    text-align: center;
+    cursor: pointer;
+    white-space: nowrap;
+      width: 93%;
+  font-family: 'arial';
+  font-size: 36px!important;
+}
+
+
+
+
+
+
